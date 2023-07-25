@@ -10,3 +10,14 @@
   gap: 20px;
   align-items: center;
 }
+
+.social {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.social:hover,
+.social:focus,
+.social:active {
+  opacity: 1;
+}

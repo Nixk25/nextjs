@@ -21,10 +21,12 @@
   border-radius: 5px;
   box-shadow: rgba(255, 255, 255, 0.7) 0px 0px 10px;
   cursor: pointer;
+  transition: all ease 0.3s;
 }
 
 .logo:hover {
   scale: 1.1;
+  filter: brightness(1.5);
 }
 
 .logo:active {

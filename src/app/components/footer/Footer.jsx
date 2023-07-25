@@ -12,6 +12,7 @@ const Footer = () => {
       <div className={styles.socialMedia}>
         <Link href="#">
           <Image
+            className={styles.social}
             src="/1.png"
             width={20}
             height={20}
@@ -20,6 +21,7 @@ const Footer = () => {
         </Link>
         <Link href="#">
           <Image
+            className={styles.social}
             src="/2.png"
             width={20}
             height={20}
@@ -28,6 +30,7 @@ const Footer = () => {
         </Link>
         <Link href="#">
           <Image
+            className={styles.social}
             src="/3.png"
             width={20}
             height={20}

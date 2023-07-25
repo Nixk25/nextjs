@@ -1,0 +1,23 @@
+.button {
+  padding: 20px;
+  border: none;
+  background-color: var(--action-color);
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+  width: max-content;
+  transition: all ease 0.3s;
+}
+
+.link {
+  width: max-content;
+}
+
+.button:hover {
+  scale: 1.1;
+  filter: brightness(1.5);
+}
+
+.button:active {
+  scale: 0.8;
+}
