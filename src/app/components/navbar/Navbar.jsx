@@ -1,6 +1,8 @@
 import React from "react";
 import Link from "next/link";
 import styles from "./navbar.module.css";
+import DarkModeToggle from "../darkModeToggle/DarkModeToggle";
+
 const Navbar = () => {
   return (
     <div className={styles.container}>
@@ -11,14 +13,12 @@ const Navbar = () => {
           </div>
         </div>
         <div className={styles.linksRight}>
+          <DarkModeToggle />
           <Link className={styles.link} href="/">
             Home
           </Link>
           <Link className={styles.link} href="/about">
             About
-          </Link>
-          <Link className={styles.link} href="/portfolio">
-            Portfolio
           </Link>
           <Link className={styles.link} href="/blog">
             Blog

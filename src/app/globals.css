@@ -23,6 +23,20 @@ a {
   color: inherit;
 }
 
+.theme {
+  transition: all ease 1s;
+}
+
+.dark {
+  background-color: #111;
+  color: var(--secondary-color);
+}
+
+.light {
+  background-color: #fff;
+  color: #111;
+}
+
 .container {
   max-width: 90%;
   margin: 0 auto;

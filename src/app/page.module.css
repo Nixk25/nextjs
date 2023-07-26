@@ -14,7 +14,11 @@
 
 .headline {
   font-size: 70px;
-  background: linear-gradient(to bottom, var(--main-color), #bbb);
+  background: linear-gradient(
+    to bottom,
+    var(--main-color),
+    var(--secondary-color)
+  );
   background-clip: text;
   -webkit-text-fill-color: transparent;
 }
@@ -34,6 +38,6 @@
     transform: translateY(-30px);
   }
   to {
-    transform: translateY(30px);
+    transform: translateY(10px);
   }
 }
