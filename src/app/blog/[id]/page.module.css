@@ -39,3 +39,9 @@
   flex-direction: column;
   gap: 50px;
 }
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

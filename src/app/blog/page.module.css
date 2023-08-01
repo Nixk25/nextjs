@@ -31,3 +31,9 @@
 .img {
   object-fit: contain;
 }
+
+.loading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

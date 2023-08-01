@@ -4,6 +4,11 @@ import Image from "next/image";
 import ContactImg from "public/contact.svg";
 import Button from "../components/button/Button";
 
+export const metadata = {
+  title: "BlogHub-Contact",
+  description: "Contact on bloghub support ",
+};
+
 const Contact = () => {
   return (
     <div className={styles.container}>
