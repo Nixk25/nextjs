@@ -41,3 +41,39 @@
     transform: translateY(10px);
   }
 }
+
+@media (max-width: 1150px) {
+  .headline {
+    font-size: 40px;
+  }
+
+  .desc {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 880px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .img {
+    height: 300px;
+  }
+}
+
+@media (max-width: 440px) {
+  .headline {
+    font-size: 30px;
+  }
+
+  .desc {
+    font-size: 16px;
+  }
+
+  .img {
+    height: 200px;
+    margin-bottom: 80px;
+  }
+}

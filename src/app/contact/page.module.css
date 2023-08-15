@@ -2,7 +2,7 @@
   font-size: 70px;
   text-align: center;
   margin-bottom: 50px;
-  color: var(--secondary-color);
+  color: #fff;
 }
 
 .content {
@@ -85,4 +85,30 @@
 
 .btn:active {
   scale: 0.8;
+}
+
+@media (max-width: 1000px) {
+  .content {
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .imgContainer {
+    width: 300px;
+    height: auto;
+  }
+
+  .img {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .left {
+    flex: none;
+  }
 }

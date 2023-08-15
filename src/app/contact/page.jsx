@@ -16,8 +16,8 @@ const Contact = () => {
         {send ? (
           <div className={styles.invisible}>
             <h1>
-              Thank you! Your Message has been sent successfully. I am working
-              on it!
+              Thank you! Your Message has been sent successfully and we are
+              working on it!
             </h1>
           </div>
         ) : (
@@ -39,17 +39,20 @@ const Contact = () => {
                     placeholder="Your Name"
                     type="name"
                     className={styles.input}
+                    required
                   />
                   <input
                     placeholder="Your Email"
                     type="email"
                     className={styles.input}
+                    required
                   />
                   <textarea
                     placeholder="Write message"
                     className={styles.textarea}
                     cols="30"
                     rows="10"
+                    required
                   ></textarea>
                   <button className={styles.btn} type="submit">
                     Send

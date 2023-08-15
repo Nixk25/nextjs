@@ -45,3 +45,22 @@
   justify-content: center;
   align-items: center;
 }
+
+@media (max-width: 900px) {
+  .top {
+    flex-direction: column;
+  }
+
+  .imgContainer {
+    width: auto !important;
+    height: 200px;
+  }
+
+  .image {
+    width: 100%;
+  }
+
+  .container {
+    margin-bottom: 80px;
+  }
+}

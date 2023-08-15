@@ -5,6 +5,7 @@ import Footer from './components/footer/Footer'
 import { ThemeProvider } from './context/ThemeContext'
 import AuthProvider from './components/AuthProvider/AuthProvider'
 
+
 const alata = Alata({weight:"400", subsets: ["latin"]})
 
 

@@ -23,6 +23,10 @@ a {
   color: inherit;
 }
 
+.active {
+  color: var(--main-color);
+}
+
 .theme {
   transition: all ease 1s;
 }
@@ -40,7 +44,6 @@ a {
 .container {
   max-width: 90%;
   margin: 0 auto;
-  padding: 0 60px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;

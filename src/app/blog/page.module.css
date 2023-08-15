@@ -26,14 +26,37 @@
 
 .title {
   font-size: 30px;
+  font-weight: bold;
+  color: var(--main-color);
 }
 
 .img {
   object-fit: contain;
+  width: 100%;
 }
 
 .loading {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+@media (max-width: 900px) {
+  .title {
+    font-size: 23px;
+  }
+
+  .blogPost {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .container {
+    margin-bottom: 100px;
+  }
+
+  .imgContainer {
+    width: auto !important;
+    height: 200px;
+  }
 }
