@@ -2,6 +2,11 @@ import React from "react";
 import styles from "./page.module.css";
 import Button from "../components/button/Button";
 
+export const metadata = {
+  title: "About Us in BlogHub",
+  description: "About page Bloghub",
+};
+
 const About = () => {
   return (
     <div className={styles.container}>

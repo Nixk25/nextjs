@@ -12,7 +12,7 @@ export default function Home() {
           Unleashing the power of your blog ideas has never been more effortless
           than a squirrel finding its hidden stash of acorns!{" "}
         </p>
-        <Button url="/dashboard/login" title="Sign in and write" />
+        <Button url="/dashboard/login" title="Login and write" />
       </div>
       <div className={styles.imgContainer}>
         <Image

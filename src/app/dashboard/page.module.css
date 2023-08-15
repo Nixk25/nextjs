@@ -1,0 +1,97 @@
+.container {
+  display: flex;
+  gap: 100px;
+}
+
+.posts {
+  width: 50%;
+}
+
+.new {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  position: relative;
+}
+
+.title {
+  text-align: center;
+}
+
+.post {
+  display: flex;
+  gap: 40px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 0px;
+}
+
+.image {
+  object-fit: cover;
+  width: 400px;
+  border-radius: 10px;
+}
+
+.imgContainer {
+  width: auto;
+  height: 300px;
+  border-radius: 10px;
+}
+
+.delete {
+  color: red;
+  cursor: pointer;
+  transition: all ease 0.3s;
+}
+
+.delete:hover {
+  scale: 1.54;
+}
+
+.delete:active {
+  scale: 0.8;
+}
+
+.input,
+.content {
+  padding: 20px;
+  background-color: var(-secondary-color);
+  border: 2px solid #fff;
+  border-radius: 5px;
+  transition: all ease 0.3s;
+  outline: none;
+  caret-color: var(--main-color);
+  font-family: "Alada", sans-serif;
+}
+
+.input:focus,
+.content:focus {
+  border-color: var(--main-color);
+}
+
+.addBtn {
+  padding: 20px;
+  border: none;
+  background-color: var(--action-color);
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 700;
+  width: max-content;
+  transition: all ease 0.3s;
+  display: grid;
+  position: absolute;
+  top: 520px;
+  left: 50%;
+  translate: -50%;
+}
+
+.addBtn:hover {
+  scale: 1.1;
+  filter: brightness(1.5);
+}
+
+.addBtn:active {
+  scale: 0.8;
+}

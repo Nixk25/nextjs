@@ -33,7 +33,7 @@ a {
 }
 
 .light {
-  background-color: #fff;
+  background-color: var(--secondary-color);
   color: #111;
 }
 

@@ -1,11 +1,12 @@
 "use client";
 
 import React from "react";
-import { signIn, signOut, useSession } from "next-auth/react";
+import { signIn, useSession } from "next-auth/react";
 import styles from "./page.module.css";
-import Link from "next/link";
+
 import { useRouter } from "next/navigation";
 import Image from "next/image";
+
 const Login = () => {
   const router = useRouter();
 
