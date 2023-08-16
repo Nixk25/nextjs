@@ -30,13 +30,13 @@
 
 .image {
   object-fit: cover;
-  width: 400px;
+  width: 100%;
   border-radius: 10px;
 }
 
 .imgContainer {
-  width: auto;
-  height: 300px;
+  width: 400px;
+  height: auto;
   border-radius: 10px;
 }
 
@@ -57,8 +57,8 @@
 .input,
 .content {
   padding: 20px;
-  background-color: var(-secondary-color);
-  border: 2px solid #fff;
+  background-color: var(--secondary-color);
+  border: 2px solid var(--secondary-color);
   border-radius: 5px;
   transition: all ease 0.3s;
   outline: none;
@@ -94,4 +94,39 @@
 
 .addBtn:active {
   scale: 0.8;
+}
+
+@media (max-width: 840px) {
+  .container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .posts {
+    width: 100%;
+  }
+
+  .posts h1 {
+    text-align: center;
+  }
+
+  .new {
+    margin-bottom: 150px;
+  }
+}
+
+@media (max-width: 610px) {
+  .new {
+    width: 100%;
+  }
+
+  .imgContainer {
+    width: 300px;
+    height: auto;
+  }
+
+  .image {
+    width: 100%;
+  }
 }
